@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Categories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="categories">
+        <div class="category-card" onclick="redirectToPage('./html/EnglishBooks2.html')">
+            <img src="./images/book1.jpg" alt="English Books">
+            <div class="overlay">
+                <h2>English Books</h2>
+                <i class="fas fa-book"></i>
+            </div>
+        </div>
+
+        <div class="category-card" onclick="redirectToPage('./html/hindiBooks.html')">
+            <img src="./images/Hindi.jpeg" alt="Hindi Books">
+            <div class="overlay">
+                <h2>Hindi Books</h2>
+                <i class="fas fa-child"></i>
+            </div>
+        </div>
+
+        <div class="category-card" onclick="redirectToPage('./html/scienceFictionBooks.html')">
+            <img src="./images/Science.jpeg" alt="Science Fiction Books">
+            <div class="overlay">
+                <h2>Science Fiction</h2>
+                <i class="fas fa-rocket"></i>
+            </div>
+        </div>
+        <div class="category-card" onclick="redirectToPage('./html/loveBooks.html')">
+            <img src="./images/love.jpeg" alt="Romance Books">
+            <div class="overlay">
+                <h2>Love Books</h2>
+                <i class="fas fa-heart"></i>
+            </div>
+        </div> 
+        <div class="category-card" onclick="redirectToPage('./html/historyBooks.html')">
+            <img src="./images/History.jpeg" alt="history Books">
+            <div class="overlay">
+                <h2>History Books</h2>
+                <i class="fas fa-history"></i>
+            </div>
+        </div> 
+        <div class="category-card" onclick="redirectToPage('./html/GeneralKnowledgeBooks.html')">
+            <img src="./images/gk.jpeg" alt="General Knowledge  Books">
+            <div class="overlay">
+                <h2>Gk Books</h2>
+                <i class="fas fa-globe"></i>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

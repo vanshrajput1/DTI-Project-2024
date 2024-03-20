@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #6B66FF, #FF6B6B);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 565px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #6B66FF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid #6B66FF; /* Border for visual separation */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a lifted look */
+    background-color: #fff; /* Background color for the book cover */
+}
+
+.book img {
+    width: 60px;
+    height: 90px;
+    object-fit: cover; /* Maintain aspect ratio for the cover */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to the book cover */
+}
+
+.book-details {
+    flex: 1;
+    text-align: center; /* Center text for smaller screens */
+}
+
+.book-details h2 {
+    color: #6B66FF;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center icons for smaller screens */
+}
+
+.icons i {
+    margin: 0 5px;
+    cursor: pointer;
+    color: #6B66FF;
+    font-size: 16px;
+}
+
+.modal-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#downloadPdfBtn {
+    background-color: #6B66FF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .book-details {
+        text-align: left; 
+    }
+}

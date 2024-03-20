@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MuseModerno',cursive;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --text-color:#000000;
+    --bg-color:#e5e5e5;
+    --second-color:#fff;
+    
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+#darkmode{
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--text-color);
+    margin-left: 10px;
+}
+body.color{
+    --text-color:#fff;
+    background: linear-gradient(to right, #000080, #000000);
+
+    /* --bg-color:#08162a; */
+}
+
